@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<style>
+h1 {
+	text-align: center;
+}
+
+p {
+	text-align: left;
+}
+
+p1 {
+	text-align: right;
+}
+
+div {
+	text-align: center;
+}
+</style>
+<style>
+.vl {
+	border: 6px solid green;
+	height: 580px;
+	text-align: center;
+}
+</style>
+<style>
+.verticalLine {
+	border-left: 4px solid #4b42f5;
+	height: 300px;
+	position: absolute;
+	left: 50%;
+	margin-left: -3px;
+	top: 30;
+}
+</style>
+<style>
+* {
+	box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  font-size: 55px;
+  font-style: bold;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.column {
+	float: left;
+	width: 50%;
+	padding: 10px;
+	height: 300px; /* Should be removed. Only for demonstration */
+}
+
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+</style>
+<meta charset="ISO-8859-1">
+<title>Website Copss...</title>
+</head>
+<body class="vl">
+	
+		
+	
+ <div class="container">
+ 	
+ 	<img alt="" src="img/uni.jpg" height="100px" width="900px">
+    <div class="centered">Attack On Titan University</div>
+ </div>
+
+	<div>
+		<h1>
+			<a class="active" href="">presentation</a>&nbsp;&nbsp;&nbsp;&nbsp; <a
+				href="">Studies</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="">Staff</a>
+		</h1>
+	</div>
+
+
+	<div class="verticalLine"></div>
+
+<div class="row">
+  <div class="column" style="background-color:ghostwhite;">
+    <h2>News</h2>
+    <h3>News 1</h3>
+    <p>Eren Yeager a.k.a Attack Titan RUMBLING towars the Marley along with number of giagantic Colossol titans......</p>
+    <br>
+    <h3>News 2</h3>
+  </div>
+  <div class="column" style="background-color:ghostwhite;">
+
+    <h2>Announcements</h2>
+    <h2>Open Course 1</h2>
+    <p>Open course for Survey Cops,Wings of Freedom and Military grades.....</p>
+    <br>
+    <h2>Open Course 2</h2>
+  </div>
+  
+</div>
+
+<h3>Contact:info@SurveyCopsuUniversity.com</h3>
+<h4>(c),University</h4>
+</body>
+</html>
